@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.885);
+    width:100%;
+    height:100vh;
+}
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:30px 30px;
+    margin:40px 40px;
+}
+.tab{
+    width:560px;
+    height:180px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px 15px;
+    border-radius: 9px;
+}
+.tab3{
+    display:none;
+}
+.tab2{
+    display:none;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding:10px 70px;
+    color:rgb(14, 2, 2);
+    background-color: rgb(246, 246, 241);
+    border:none;
+    border-radius: 13px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin:-30px 10px; 
+}
+.icon-head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:10px 10px;
+}
+.tab p{
+align-items: center;
+}
+.icon-head i{
+    padding:10px 10px;
+}
+.icon-1 i{
+    color:red;
+}
+.active{
+    display:block;
+}
+.btn1{
+    background-color: rgba(208, 44, 44, 0.999);
+
+}
+.btn1:hover{
+   
+    background-color: rgb(243, 159, 159);
+}
+.btn2{
+    background-color: rgba(128, 235, 40, 0.999)  ;
+}
+.btn2:hover{
+ background-color: rgba(184, 243, 135, 0.999);  
+
+}
+.btn3:hover{
+    background-color: rgb(250, 250, 189);
+    
+}
+.btn3{
+background-color: rgb(255, 255, 0);
+}
